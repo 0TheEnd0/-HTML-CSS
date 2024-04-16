@@ -1,0 +1,103 @@
+
+
+.Zagolovok_img img{
+  display: block;
+  float: left;
+  border-radius: 100px;
+}
+
+.Zagolovok_text{
+  display: block;
+  font-size: 50px;
+
+}
+
+
+.PodZagolovok{
+  display: block;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 750px;
+}
+
+.histori_img1{
+  display: inline;
+  margin-left: 50px;
+}
+
+.histori_img1 img{
+  border-radius: 10px;
+}
+
+.histori_img1 img:hover{
+  width: 500px;
+  margin-left: 0px;
+
+  border-radius: 100px;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: red;
+}
+
+.histori_img2{
+  display: inline;
+  margin-left: 175px;
+}
+
+.histori_img2 img{
+  border-radius: 10px;
+}
+
+.histori_img2 img:hover{
+  width: 500px;
+  margin-left: 0px;
+
+  border-radius: 100px;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: red;
+}
+
+.histori_img3{
+  display: inline;
+  margin-left: 215px;
+}
+
+.histori_img3 img{
+  border-radius: 10px;
+}
+
+.histori_img3 img:hover{
+  width: 700px;
+  margin-left: 0px;
+
+  border-radius: 100px;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: red;
+}
+
+.histori_text1{
+  display: inline;
+  font-size: 30px;
+  margin: 110px;
+}
+
+.histori_text2{
+  display: inline;
+  font-size: 30px;
+  margin: 150px;
+}
+
+.histori_text3{
+  display: inline;
+  font-size: 30px;
+  margin: 160px;
+}
+
+.Back{
+  display: block;
+  background-image: url(Полёт2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

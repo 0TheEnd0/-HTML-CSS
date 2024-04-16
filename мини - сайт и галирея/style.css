@@ -1,0 +1,124 @@
+
+.BlocOne img{
+  display: block;
+  float: left;
+  border-radius: 100px;
+}
+
+
+.BlocOne a{
+  display: block;
+  color: inherit;
+}
+
+
+.zagolovok1{
+  display: block;
+  font-size: 35px;
+  margin-left: 250px
+
+}
+
+.img1 img{
+  display: block;
+  float: right;
+  border-radius: 100px;
+}
+
+.BlocTwo{
+  display: block;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 100px
+}
+
+
+.Zagolovok2{
+  display: block;
+  margin-left: 750px;
+  font-size: 30px;
+}
+.giper1{
+  display: block;
+  margin-left: 1000px;
+  width: 400px;
+  font-size:30px;
+  background-color: red;
+
+  border-width: 10px;
+  border-style: ridge;
+  border-color: blue;
+}
+
+.giper2{
+  display: block;
+  margin-left: 1000px;
+  width: 200px;
+  font-size:30px;
+  background-color: red;
+
+  border-width: 10px;
+  border-style: ridge;
+  border-color: blue;
+}
+
+.back{
+    display: block;
+    background-image: url(Полёт2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 25px;
+}
+
+.Video1 video{
+  margin-left: 600px;
+
+}
+
+.Vaz1{
+  display: inline;
+  color: yellow;
+
+}
+
+.Vaz2{
+  display: block;
+  color: yellow;
+
+}
+.Vaz3{
+  display: block;
+  color: yellow;
+
+}
+.Vaz4{
+  display: block;
+  color: yellow;
+
+}
+.Vaz5{
+  display: block;
+  color: yellow;
+
+}
+.Vaz6{
+  display: block;
+  color: yellow;
+
+}
+.Vaz7{
+  display: block;
+  color: yellow;
+
+}
+.Vaz8{
+  display: block;
+  color: yellow;
+
+}
+.Vaz9{
+  display: block;
+  color: yellow;
+
+}

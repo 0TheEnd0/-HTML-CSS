@@ -1,0 +1,292 @@
+#zvan1{
+  width: 150px;
+  height: 300px;
+  position: relative;
+  font-weight: bold;
+
+  background-color: darkgreen;
+
+  animation: zvan1 10s;
+  animation-iteration-count:  infinite;
+}
+
+#zvan2{
+  width: 150px;
+  height: 100px;
+  position: relative;
+  font-weight: bold;
+
+  background-color: darkgreen;
+
+  animation: zvan2 10s;
+  animation-iteration-count:  infinite;
+}
+
+
+@keyframes zvan1 {
+  0%{transform: rotate();left: 100px; transform: skewY(25deg);top:30px;}
+  10%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  20%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  30%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  40%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  50%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  60%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  70%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  80%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  90%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+  100%{transform: rotate();left: 100px;transform: skewY(25deg);top:30px;}
+}
+
+@keyframes zvan2 {
+  0%{transform: rotate();left: 100px; top:-10px;}
+  10%{transform: rotate();left: 100px;top:-10px;}
+  20%{transform: rotate();left: 100px;top:-10px;}
+  30%{transform: rotate();left: 100px;top:-10px;}
+  40%{transform: rotate();left: 100px;top:-10px;}
+  50%{transform: rotate();left: 100px;top:-10px;}
+  60%{transform: rotate();left: 100px;top:-10px;}
+  70%{transform: rotate();left: 100px;top:-10px;}
+  80%{transform: rotate();left: 100px;top:-10px;}
+  90%{transform: rotate();left: 100px;top:-10px;}
+  100%{transform: rotate();left: 100px;top:-10px;}
+}
+
+#polos11{
+  animation: polos11 5s;
+  width: 75px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 2.5s;
+
+}
+#polos12{
+  animation: polos12 5s;
+  width: 75px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 2.5s;
+
+}
+#polos21{
+  animation: polos21 2.5s;
+  width: 75px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 5s;
+}
+#polos22{
+  animation: polos22 2.5s;
+  width: 75px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 5s;
+}
+
+#polos31{
+  animation: polos31 1.4s;
+  width: 75px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 6s;
+}
+#polos32{
+  animation: polos32 1.4s;
+  width: 75px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 6s;
+}
+
+
+@keyframes polos11 {
+  0%{transform: rotate(-45deg);left: 110px;top: -50px; background-color: LimeGreen;}
+  20%{transform: rotate(-45deg);left: 110px;top: -100px;background-color: LimeGreen;}
+  40%{transform: rotate(-45deg);left: 110px;top: -100px;background-color: LimeGreen;}
+  60%{transform: rotate(-45deg);left: 110px;top: -100px;background-color: LimeGreen;}
+  80%{transform: rotate(-45deg);left: 110px;top: -100px;background-color: LimeGreen;}
+  100%{transform: rotate(-45deg);left: 110px;top: -100px;background-color: LimeGreen;}
+}
+@keyframes polos12 {
+  0%{transform: rotate(45deg);left: 160px;top: -70px; background-color: LimeGreen;}
+  20%{transform: rotate(45deg);left: 160px;top: -115px;background-color: LimeGreen;}
+  40%{transform: rotate(45deg);left: 160px;top: -115px;background-color: LimeGreen;}
+  60%{transform: rotate(45deg);left: 160px;top: -115px;background-color: LimeGreen;}
+  80%{transform: rotate(45deg);left: 160px;top: -115px;background-color: LimeGreen;}
+  100%{transform: rotate(45deg);left: 160px;top: -115px;background-color: LimeGreen;}
+}
+
+@keyframes polos21 {
+  0%{transform: rotate(-45deg);left: 110px;top: -100px; background-color: LimeGreen;}
+  20%{transform: rotate(-45deg);left: 110px;top: -175px;background-color: LimeGreen;}
+  40%{transform: rotate(-45deg);left: 110px;top: -175px;background-color: LimeGreen;}
+  60%{transform: rotate(-45deg);left: 110px;top: -175px;background-color: LimeGreen;}
+  80%{transform: rotate(-45deg);left: 110px;top: -175px;background-color: LimeGreen;}
+  100%{transform: rotate(-45deg);left: 110px;top: -175px;background-color: LimeGreen;}
+}
+@keyframes polos22 {
+  0%{transform: rotate(45deg);left: 160px;top: -115px; background-color: LimeGreen;}
+  20%{transform: rotate(45deg);left: 160px;top: -190px;background-color: LimeGreen;}
+  40%{transform: rotate(45deg);left: 160px;top: -190px;background-color: LimeGreen;}
+  60%{transform: rotate(45deg);left: 160px;top: -190px;background-color: LimeGreen;}
+  80%{transform: rotate(45deg);left: 160px;top: -190px;background-color: LimeGreen;}
+  100%{transform: rotate(45deg);left: 160px;top: -190px;background-color: LimeGreen;}
+}
+
+@keyframes polos31 {
+  0%{transform: rotate(-45deg);left: 110px;top: -100px; background-color: LimeGreen;}
+  20%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+  40%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+  60%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+  100%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+}
+@keyframes polos32 {
+  0%{transform: rotate(45deg);left: 160px;top: -115px; background-color: LimeGreen;}
+  20%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+  40%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+  60%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+  100%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+}
+
+#polos41{
+  animation: polos41 5s;
+  width: 75px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 10s;
+}
+#polos42{
+  animation: polos42 5s;
+  width: 75px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 10s;
+}
+#polos51{
+  animation: polos51 5s;
+  width: 70px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 10s;
+}
+#polos52{
+  animation: polos52 5s;
+  width: 70px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 10s;
+}
+@keyframes polos41{
+  0%{transform: rotate(-45deg);left: 110px;top: -100px; background-color: LimeGreen;}
+  20%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+  40%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+  60%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+  80%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+  100%{transform: rotate(-45deg);left: 110px;top: -245px;background-color: LimeGreen;}
+}
+@keyframes polos42 {
+  0%{transform: rotate(45deg);left: 160px;top: -115px; background-color: LimeGreen;}
+  20%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+  40%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+  60%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+  80%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+  100%{transform: rotate(45deg);left: 160px;top: -260px;background-color: LimeGreen;}
+}
+
+@keyframes polos51 {
+  0%{transform: rotate(-45deg);left: 120px;top: -100px; background-color: LimeGreen;}
+  20%{transform: rotate(-45deg);left: 120px;top: -265px;background-color: LimeGreen;}
+  40%{transform: rotate(-45deg);left: 120px;top: -265px;background-color: LimeGreen;}
+  60%{transform: rotate(-45deg);left: 120px;top: -265px;background-color: LimeGreen;}
+  80%{transform: rotate(-45deg);left: 120px;top: -265px;background-color: LimeGreen;}
+  100%{transform: rotate(-45deg);left: 120px;top: -265px;background-color: LimeGreen;}
+}
+@keyframes polos52 {
+  0%{transform: rotate(45deg);left: 155px;top: -115px; background-color: LimeGreen;}
+  20%{transform: rotate(45deg);left: 155px;top: -280px;background-color: LimeGreen;}
+  40%{transform: rotate(45deg);left: 155px;top: -280px;background-color: LimeGreen;}
+  60%{transform: rotate(45deg);left: 155px;top: -280px;background-color: LimeGreen;}
+  80%{transform: rotate(45deg);left: 155px;top: -280px;background-color: LimeGreen;}
+  100%{transform: rotate(45deg);left: 155px;top: -280px;background-color: LimeGreen;}
+}
+
+#polos61{
+  animation: polos61 2.5s;
+  width: 65px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 12.5s;
+}
+#polos62{
+  animation: polos62 2.5s;
+  width: 65px;
+  height: 15px;
+  position: relative;
+  font-weight: bold;
+
+  animation-delay: 12.5s;
+}
+
+@keyframes polos61{
+  0%{transform: rotate(-45deg);left: 120px;top: -100px; background-color: LimeGreen;}
+  20%{transform: rotate(-45deg);left: 120px;top: -245px;background-color: LimeGreen;}
+  40%{transform: rotate(-45deg);left: 120px;top: -245px;background-color: LimeGreen;}
+  60%{transform: rotate(-45deg);left: 120px;top: -245px;background-color: LimeGreen;}
+  100%{transform: rotate(-45deg);left: 120px;top: -245px;background-color: LimeGreen;}
+}
+@keyframes polos62{
+  0%{transform: rotate(45deg);left: 155px;top: -115px; background-color: LimeGreen;}
+  20%{transform: rotate(45deg);left: 155px;top: -260px;background-color: LimeGreen;}
+  40%{transform: rotate(45deg);left: 155px;top: -260px;background-color: LimeGreen;}
+  60%{transform: rotate(45deg);left: 155px;top: -260px;background-color: LimeGreen;}
+  100%{transform: rotate(45deg);left: 155px;top: -260px;background-color: LimeGreen;}
+}
+
+#Zvezda11{
+  width: 200px;
+  height: 200px;
+  animation: Zvezda11 10s;
+  animation-delay: 15s;
+  position: relative;
+  font-weight: bold;
+  background-image:url(звезда.png)
+}
+#Zvezda12{
+    width: 50px;
+    height: 50px;
+    animation: Zvezda12 10s;
+    animation-delay: 15s;
+    position: relative;
+    font-weight: bold;
+}
+
+@keyframes Zvezda11 {
+  0%{transform: rotate(0deg);left: 150px;top:50px;}
+  20%{transform: rotate(0deg);left: 150px;top:50px;}
+  40%{transform: rotate(0deg);left: 150px;top:50px;}
+  60%{transform: rotate(0deg);left: 150px;top:50px;}
+  80%{transform: rotate(0deg);left: 150px;top:50px;}
+  100%{transform: rotate(0deg);left: 150px;top:50px;}
+
+}

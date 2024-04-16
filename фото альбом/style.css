@@ -1,0 +1,58 @@
+
+.img1{
+  display: inline;
+}
+.img2{
+  display: inline;
+}
+.img3{
+  display: inline;
+}
+.img4{
+  display: inline;
+}
+
+
+
+
+.img1 img{
+  width: 200px;
+  padding-left: 200px;
+  opacity: 35%;
+}
+.img2 img{
+  width: 155px;
+  padding-left: 200px;
+  opacity: 35%;
+}
+
+.img3 img{
+  width: 205px;
+  padding-left: 200px;
+  opacity: 35%;
+}
+
+.img4 img{
+  width: 205px;
+  padding-left: 200px;
+  opacity: 35%;
+}
+
+
+
+.img1 img:hover{
+  width: 350px;
+  padding-left: 100px;
+}
+.img2 img:hover{
+  width: 280px;
+  padding-left: 100px;
+}
+.img3 img:hover{
+  width: 355px;
+  padding-left: 100px;
+}
+.img4 img:hover{
+  width: 355px;
+  padding-left: 100px;
+}
